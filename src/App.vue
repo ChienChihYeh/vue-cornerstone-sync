@@ -13,9 +13,11 @@ initCornerstone().then(() => {
 
 <template>
   <main>
-    <h1>Vue Cornerstone Stack Syncronizers</h1>
+    <h1>Vue Cornerstone Stack Synchronizers</h1>
     <SyncViewers v-if="isInit" />
-    <p>Mouse Wheel: Scroll | Right Mouse Button: Zoom</p>
+    <p>
+      Mouse Wheel: Scroll | Left Mouse Button: Pan | Right Mouse Button: Zoom
+    </p>
   </main>
 </template>
 
