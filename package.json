@@ -13,6 +13,7 @@
     "@cornerstonejs/dicom-image-loader": "^1.68.1",
     "@cornerstonejs/tools": "^1.68.1",
     "dicom-parser": "^1.8.21",
+    "vite-plugin-wasm": "^3.3.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
